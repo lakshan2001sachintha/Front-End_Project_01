@@ -1,0 +1,119 @@
+body{
+    background-image: url(541.jpg);
+    background-size: cover;
+}
+.lak1,.lak3{
+    float: right;
+    width: 30%;
+    border: 2px solid rgb(255, 255, 255);
+}
+.lak2{
+    float:left;
+    width: 30%;
+    border: 2px solid rgb(255, 255, 255);
+}
+.sac1{
+    position: absolute;
+    width: 75%;
+    left: 5%;
+    top: 3.8%;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.41)50%,rgba(0, 0, 0, 0.41)50%);
+    border-radius: 15px;
+    box-shadow: 0 6px 20px 0 rgba(255, 255, 255, 0.1), 0 6px 20px 0 rgba(255, 255, 255, 0.1);
+    animation-name: dakq;
+    animation: dakq 0.5s;
+    
+}
+@keyframes dakq{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform:translateY(0px) scale(1);
+     }
+    
+    }
+    
+    
+
+.sac2{
+    position: absolute;
+    width: 75%;
+    left: 18%;
+    top: 35%;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.41)50%,rgba(0, 0, 0, 0.41)50%);
+    border-radius: 15px;
+    margin: 3px;
+    box-shadow: 0 6px 20px 0 rgba(255, 255, 255, 0.1), 0 6px 20px 0 rgba(255, 255, 255, 0.1);
+    animation-name: dakw;
+    animation: dakw 1s;
+    
+}
+@keyframes dakw{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform:translateY(0px) scale(1);
+     }
+    
+    
+}
+.sac3{
+    position: absolute;
+    width: 75%;
+    left: 5%;
+    top: 67%;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.41)50%,rgba(0, 0, 0, 0.41)50%);
+    border-radius: 15px;
+    box-shadow: 0 6px 20px 0 rgba(255, 255, 255, 0.1), 0 6px 20px 0 rgba(255, 255, 255, 0.1);
+    animation-name: dake;
+    animation: dake 1.5s;
+    
+}
+@keyframes dake{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform:translateY(0px) scale(1);
+     }
+    
+    
+}
+
+
+p{
+    text-align: center;
+    font-size: 17px;
+    color: aliceblue;
+}
+
+.sac4{
+    position: absolute;
+    left: 90%;
+    height: 5%;
+    width: 4%;
+    top: 7%;
+    text-align: center;
+    background: linear-gradient(to top,rgb(6, 62, 215)50%,rgba(255, 255, 255)50%);
+    border-radius: 8px;
+    padding: auto;
+    margin: auto;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+    box-sizing: border-box;
+    opacity: 1;
+}
+.sac4:hover{
+    color: blue;
+opacity: 0.8;
+    
+}

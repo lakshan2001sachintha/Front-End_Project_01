@@ -1,0 +1,96 @@
+body{
+    background-image: url(11.1.jpg);
+    background-size: cover;
+}
+
+
+.back{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.sac1{
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.41)50%,rgba(0, 0, 0, 0.41)50%);
+    width: 45%;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 11px;
+    font-size: 23px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    animation-name: nmebbs;
+    animation: nmebbs 1s;
+
+}
+@keyframes nmebbs{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform:translateY(0px) scale(1);
+}
+}
+
+.sac2{
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.41)50%,rgba(0, 0, 0, 0.41)50%);
+    width: 45%;
+    border-radius: 4px;
+    padding: 10px;
+    position: absolute;
+    right: 3px;
+    bottom: 2.5%;
+    font-size: 23px;
+    animation-name: nmebbf;
+    animation: nmebbf 1s;
+
+}
+@keyframes nmebbf{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform:translateY(0px) scale(1);
+    
+        
+}
+}    
+
+p{
+    font-weight: bold;
+    color: aliceblue;
+}
+.b{
+    text-decoration: none;
+    font-size: 30px;
+    color: aliceblue;
+    position: absolute;
+    left: 9%;
+    bottom: 11%;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 20px;
+}
+.b:hover{
+    color: red;
+}
+.c{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    right: 9%;
+    top: 10.5%;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 20px;
+}
+.c:hover{
+    color: red;
+}

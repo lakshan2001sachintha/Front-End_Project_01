@@ -1,0 +1,254 @@
+body{
+    background-image: url(kandy-3\ -\ Copy.jpg);
+    background-size: cover;
+}
+.lak1{
+    position: auto;
+    left: 34px;
+    bottom: 500px;
+    animation-name: nmeqa;
+    animation: nmeqa 1s;
+
+}
+@keyframes nmeqa{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform:translateY(0px) scale(1);
+     } 
+}
+.lak2{
+    position: absolute;
+    left: 370px;
+    bottom: 37px;
+    animation-name: nmeqb;
+    animation: nmeqb 1.6s;
+
+}
+@keyframes nmeqb{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform:translateY(0px) scale(1);
+     } 
+}
+.lak3{
+    position: absolute;
+    left: 168px;
+    bottom: 270px;
+    animation-name: nmeqc;
+    animation: nmeqc 2.3s;
+
+}
+@keyframes nmeqc{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform:translateY(0px) scale(1);
+     } 
+}
+.lak4{
+    position: absolute;
+    left: 34px;
+    bottom: 37px;
+    animation-name: nmeqd;
+    animation: nmeqd 2.9s;
+
+}
+@keyframes nmeqd{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform:translateY(0px) scale(1);
+     } 
+}
+.lak1,.lak2,.lak3,.lak4{
+    height: 200px;
+    width: 300px;
+    box-shadow: 0 6px 20px 0 rgba(255, 255, 255, 0.9), 0 6px 20px 0 rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    opacity: 1;
+    border: 5px solid white;
+    transition: 1s;
+}
+
+    
+.lak3:hover{
+    
+    height: 400px;
+    width: 600px;
+}
+        
+.lak4:hover{
+   
+    height: 400px;
+    width: 600px;
+}
+.sac{
+    border-radius: 5px;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.41)50%,rgba(0, 0, 0, 0.41)50%);
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.sac p{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    animation-name: hhnme;
+    animation: hhnme 2s;
+
+}
+@keyframes hhnme{
+    0%{
+        opacity: 0;
+       
+    }
+    100%{
+        opacity: 1;
+        
+     } 
+    
+}
+.sac1{
+    background: linear-gradient(to top,rgba(255, 255, 255, 0.61)50%,rgba(255, 255, 255, 0.61)50%);
+    width: 40%;
+    position: absolute;
+    right: 0%;
+    top: 40%;
+    border-radius: 3px;
+    padding: auto;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(2, 2, 2, 0.9);
+    animation-name: nmeq;
+    animation: nmeq 2.9s;
+
+}
+@keyframes nmeq{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform:translateY(0px) scale(1);
+     } 
+} 
+.sac2{
+    background: linear-gradient(to top,rgba(255, 255, 255, 0.61)50%,rgba(255, 255, 255, 0.61)50%);
+    width: 40%;
+    position: absolute;
+    right: 0%;
+    top: 55%;
+    border-radius: 3px;
+    padding: auto;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(2, 2, 2, 0.9);
+    animation-name: nmew;
+    animation: nmew 3.4s;
+
+}
+@keyframes nmew{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform:translateY(0px) scale(1);
+     } 
+}
+.sac3{
+    background: linear-gradient(to top,rgba(255, 255, 255, 0.61)50%,rgba(255, 255, 255, 0.61)50%);
+    width: 40%;
+    position: absolute;
+    right: 0%;
+    top: 70%;
+    border-radius: 3px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(2, 2, 2, 0.9);
+    animation-name: enme;
+    animation: enme 3.7s;
+
+}
+@keyframes enme{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform:translateY(0px) scale(1);
+     } 
+}
+.sac4{
+    background: linear-gradient(to top,rgba(255, 255, 255, 0.61)50%,rgba(255, 255, 255, 0.61)50%);
+    width: 40%;
+    position: absolute;
+    right: 0%;
+    top: 85%;
+    border-radius: 3px;
+    padding: auto;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(2, 2, 2, 0.9);
+    animation-name: rnme;
+    animation: rnme 4s;
+
+}
+@keyframes rnme{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform:translateY(0px) scale(1);
+     } 
+}
+.sac1,.sac2,.sac3,.sac4{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 7px rgb(255, 255, 255);
+    opacity: 1;
+}
+
+.mrsl{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.mrsl:hover{
+    color: aliceblue;
+}  
+.sac1:hover{
+    opacity: 1.0; 
+    text-shadow: 2px 2px 7px rgb(0, 0, 0);
+    
+}
+.sac2:hover{
+    opacity: 1.0;
+    text-shadow: 2px 2px 7px rgb(0, 0, 0);
+}
+    
+.sac3:hover{
+    opacity: 1.0;
+    text-shadow: 2px 2px 7px rgb(0, 0, 0);
+}
+        
+.sac4:hover{
+    opacity: 1.0;
+    text-shadow: 2px 2px 7px rgb(0, 0, 0);
+}

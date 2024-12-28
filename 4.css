@@ -1,0 +1,218 @@
+
+ *{
+    box-sizing: border-box; 
+    
+ }
+ body{
+    
+    background-image: url(11.1.jpg);
+    background-size: cover;
+   
+   
+
+    animation-name: animation;
+    animation-direction: alternate-reverse;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+ }
+ 
+  
+ 
+ .nas{
+    position: absolute;
+    right: 0px;
+    animation-name: exa;
+    animation-duration: 5s;
+    animation-iteration-count: 2345;
+    height: 50px;
+  width: 10px;
+  
+    
+  }
+  
+  @keyframes exa {
+    0%   { background-color: #ffffff;left:25%; top:80px}
+  
+    75%  { background-color: #000000;left:25%; top:52.5%;}
+    100% { background-color: #ffffff;left:25%; top:80px}
+ }
+ .ras{
+    position: absolute;
+    right: 0px;
+    animation-name: exam;
+    animation-duration: 5s;
+    animation-iteration-count: 2345;
+    height: 10px;
+  width: 10px;
+  
+    
+  }
+  
+  @keyframes exam{
+    0%   { background-color: #ffffff;left:15%; top:11%}
+    25%  { background-color: #000000;left:84.3%; top:11%}
+    50%  { background-color: #fffcfc;left:84.3%; top:95.6%}
+    75%  { background-color: #000000;left:15%; top:95.6%;}
+    100% { background-color: #ffffff;left:15%; top:11%}
+ }
+ .nas1{
+   position: absolute;
+   right: 0px;
+   animation-name: m;
+   animation-duration: 7s;
+   animation-iteration-count: 2345;
+   height: 10px;
+ width: 10px;
+ 
+   
+ }
+ 
+ @keyframes m{
+   0%   { background-color: #000000;left:15%; top:11%}
+   25%  { background-color: #ffffff;left:84.3%; top:11%}
+   50%  { background-color: #000000;left:84.3%; top:95.6%}
+   75%  { background-color: #ffffff;left:15%; top:95.6%;}
+   100% { background-color: #000000;left:15%; top:11%}
+}
+.nas2{
+   position: absolute;
+   right: 0px;
+   animation-name: mw;
+   animation-duration: 9s;
+   animation-iteration-count: 2345;
+   height: 10px;
+ width: 10px;
+ 
+   
+ }
+ 
+ @keyframes mw{
+   0%   { background-color: #ffffff;left:15%; top:11%}
+   25%  { background-color: #000000;left:84.3%; top:11%}
+   50%  { background-color: #ffffff;left:84.3%; top:95.6%}
+   75%  { background-color: #000000;left:15%; top:95.6%;}
+   100% { background-color: #f6f6f6;left:15%; top:11%}
+}
+
+ 
+
+ font{
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 50px;
+    letter-spacing: 10px;
+    display: inline-block;
+    border-right: 5px solid;
+    width: 37%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+             typing 3s steps(11),
+             cursor .4s step-end infinite alternate;    
+ }
+ @keyframes cursor{
+    50%{ border-color: transparent}
+ }
+ @keyframes typing{
+    from { width: 0;}
+ }
+ 
+ input[type=text], select, textarea {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.697)10%,rgba(46, 65, 50, 0.5)50%);
+    border-radius: 6px;
+    resize: vertical;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    
+
+}
+ 
+ lable{
+     padding: 12px 12px 12px 0;
+     display: inline-block;
+     color: aliceblue;
+ }
+  input[type=button]{
+     background-color: #da0909;
+     color: white;
+     padding: 7px 20px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     float: right;
+     text-shadow: 2px 2px 5px rgb(0, 0, 0);
+     width: 100%;
+     font-weight: bold;
+     font-size: 20px;
+  }
+  input[type=button]:hover{
+     background-color: rgba(179, 170, 9, 0.73);
+  }
+  .container{
+     border-radius: 5px;
+     background: linear-gradient(to top,rgba(0, 0, 0, 0.41)50%,rgba(0, 0, 0, 0.41)50%);
+     padding: 20px;
+     width: 70%;
+     margin: auto;
+     position: absolute;
+     top: 11%;
+     left: 15%;
+     animation-name: ttme;
+    animation: ttme 1s;
+
+}
+@keyframes ttme{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform:translateY(0px) scale(1);
+     } 
+       
+  }
+ .col-25 {
+     float: left;
+     width: 25%;
+     margin-top: 6px;
+     
+    
+ }
+ .col-25,::placeholder{
+     color: aliceblue;
+     font-size: 20px;
+     font-weight: bold;
+     text-shadow: 2px 2px 5px rgb(0, 0, 0);
+
+ }
+ .col-75{
+     float: left;
+     width: 75%;
+     margin-top: 6px;
+     color: rgb(255, 255, 255);
+     
+     
+     
+ }
+ .row::after{
+     content:"";
+     display: table;
+     clear: both;
+     
+}
+@keyframes animation{
+    0%{
+        background-image: url(11.1.jpg);
+    }
+
+    100%{
+        background-image: url(11.2.jpg);
+    }
+}

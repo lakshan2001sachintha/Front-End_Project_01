@@ -1,0 +1,122 @@
+body{
+    background-image: url(contactus.jpg);
+    background-size: cover;
+}
+.io{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top: 5.3%;
+    left: 25%;
+    animation-name: nmebb;
+    animation: nmebb 3s;
+
+}
+@keyframes nmebb{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform:translateY(0px) scale(1);
+     } 
+
+}
+*{
+    box-sizing: border-box;
+}
+h2{
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 10px rgb(0, 0, 0);
+
+}
+.one{
+    border-radius: 5px;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.41)50%,rgba(0, 0, 0, 0.41)50%);
+    padding: 20px;
+    width: 27%;
+    margin:100px;
+    
+}
+.two{
+    border-radius: 5px;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.41)50%,rgba(0, 0, 0, 0.41)50%);
+    padding: 20px;
+    width: 27%;
+    margin: 100px;
+    
+    
+}
+.three{
+    border-radius: 5px;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.41)50%,rgba(0, 0, 0, 0.41)50%);
+    padding: 20px;
+    width: 27%;
+    margin: 100px;
+    
+   
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+.one,.two,.three{
+    margin: 17px;
+    text-align: center;
+    animation-name: frame;
+    animation: frame 1s;
+
+}
+@keyframes frame{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform:translateY(0px) scale(1);
+     }    
+}
+.a,.b,.c{
+    width: 290px;
+    height: 40px;
+    background: rgb(176, 180, 255);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+.a:hover{
+    background: #fff;
+    color: rgb(176, 180, 255);
+}
+.b:hover{
+    background: #fff;
+    color: rgb(176, 180, 255);
+}
+.c:hover{
+    background: #fff;
+    color: rgb(176, 180, 255);
+}
+ a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+p{
+    font-weight: bold;
+    font-size: 60px;
+    color: #fff;
+}
